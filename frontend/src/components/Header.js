@@ -10,7 +10,8 @@ const Header = () => {
                     <Navbar.Brand href="/">网上商城</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto">
+                        {/* 这里想调一下头部的位置，但是好像不起作用 */}
+                    <Nav className="me-auto zidingyi">
                         <Nav.Link href="/cart">购物车</Nav.Link>
                         <Nav.Link href="/login">登录</Nav.Link>
                         {/* 这里是实现下拉框的地方 */}

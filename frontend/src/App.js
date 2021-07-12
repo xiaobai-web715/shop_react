@@ -1,7 +1,11 @@
 import './App.css';
 import { Container } from 'react-bootstrap';
 import Header from './components/Header'
+// 头部
 import Footer from './components/Footer';
+// 底部
+import HomeScreen  from './screen/HomeScreen';
+// 屏幕内容
 
 function App() {
   // return (
@@ -28,9 +32,7 @@ function App() {
       <Header />
       <main className='py-3'>
         <Container>
-          <h1>
-            hello world
-          </h1>
+          <HomeScreen />
         </Container>
       </main>
       <Footer />
