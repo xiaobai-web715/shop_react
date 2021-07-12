@@ -7,7 +7,7 @@ const HomeScreen = () => {
     const [product, setProduct] = useState(products)
     useEffect(() => {
         return () => {
-            console.log(product)
+            // console.log(product)
         }
     }, [product])
 // 自己添加测试的hook方法
